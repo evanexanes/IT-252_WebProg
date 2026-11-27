@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT252 Blog Site</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <header id="main-nav">
+        <h1>IT252 Blog Site</h1>
+
+        <!-- Checkbox toggle for CSS hamburger menu -->
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+        <label for="menu-toggle" class="hamburger-icon">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <!-- Matched class to .nav-menu for CSS adjacent sibling (+) selector -->
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="articles.html">Articles</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="blog-container">
+        <main>
+            <article class="post">
+                <h2>Learning WEBPROG</h2>
+                <p>Welcome to our IT252 Web Programming blog. Here we cover HTML structure, CSS layouts, and modern front-end design techniques.</p>
+            </article>
+        </main>
+
+        <aside class="sidebar">
+            <h3>About the Author</h3>
+            <p>Student notes and code snippets for Web Programming.</p>
+        </aside>
+    </div>
+</body>
+</html>
